@@ -1,0 +1,20 @@
+# Example Regular Expressions
+
+# Simple patterns
+a*b+
+(a|b)*
+(0|1)*00(0|1)*
+
+# Complex patterns
+(a|b)*abb
+a(a|b)*b
+(aa|bb)*
+
+# Email-like pattern (simplified)
+a+b*c+
+
+# Palindromes (odd length)
+(a|b)*a(a|b)*
+
+# Binary divisible by 3
+(0|(1(01*0)*1))*
